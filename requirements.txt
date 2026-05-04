@@ -1,6 +1,13 @@
-streamlit
-pandas
-numpy
-xgboost
-plotly
-python-docx
+streamlit>=1.20.0
+pandas>=1.5.0
+numpy>=1.23.0
+xgboost>=1.7.0
+plotly>=5.10.0
+python-docx>=0.8.11
+# 机器学习/工具链
+scikit-learn>=1.1.0
+joblib>=1.2.0
+scipy>=1.8.0
+# 打包/开发辅助（仅在打包时需要，可放到 dev-requirements.txt）
+pyinstaller>=5.6.0
+openpyxl>=3.0.10
