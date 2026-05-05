@@ -11,3 +11,6 @@ scipy>=1.8.0
 # 打包/开发辅助（仅在打包时需要，可放到 dev-requirements.txt）
 pyinstaller>=5.6.0
 openpyxl>=3.0.10
+# 优化 / 规则层 依赖
+pymoo>=0.6.1
+mlxtend>=0.24.0
